@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1170 71" style="enable-background:new 0 0 1170 71;" xml:space="preserve">
+<style type="text/css">
+	.gradient0{
+  	stop-color:rgb(237, 33, 39);
+    stop-opacity:1;
+  }
+  .gradient100{
+     stop-color:rgb(158, 0, 5);
+    stop-opacity:1;
+  }
+
+<!--   .gradient0{
+    stop-color:rgb(237,96,101);
+    stop-opacity:1;
+  }
+  .gradient100{
+     stop-color:rgb(237, 34, 40);
+    stop-opacity:1;
+  } -->
+</style>
+<defs>
+	<linearGradient id="MtchHead" x1="0" x2="0" y1="0" y2="1">
+	    <stop class="gradient0" offset="0%" />
+	    <stop class="gradient100" offset="100%" />
+  	</linearGradient>
+</defs>
+<path  fill="url(#MtchHead)" d="M0,0l1171-1v27c0,0-371.9,15.9-496,19C506.3,49.2,55,50,0,48C0,48,0,1,0,0z"/>
+</svg>

@@ -1,0 +1,1165 @@
+@charset "UTF-8";
+
+/**/
+/**/
+/**/
+.short-name {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .short-name {
+        display: block;
+        display: initial;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .full-name {
+        display: none;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 767px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+em {
+    font-style: normal;
+}
+
+.table {
+    background: none;
+}
+
+body {
+    font-family: "GothamBook";
+    color: #000;
+    line-height: normal;
+    min-width: 100%;
+    *width: 100%;
+    position: relative;
+}
+
+.current-match-innings,
+.won-match {
+    color: #000;
+}
+
+.loss-match {
+    color: #dad8d8;
+}
+
+.table {
+    display: table;
+    width: 100%;
+}
+
+.tableRow {
+    display: table-row;
+}
+
+.tableCell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.clearboth {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.web-hidden {
+    display: none !important;
+}
+
+@media screen and (max-width: 767px) {
+    .web-hidden {
+        display: block !important;
+    }
+
+    .mobile-hidden {
+        display: none !important;
+    }
+}
+
+body {
+    font-size: 16px;
+    /* 9 */
+    font-size: 1rem;
+    /* 9 */
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 12px;
+        /* 9 */
+        font-size: 0.75rem;
+        /* 9 */
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .si-cwl-container .container,
+    .si-cwl-container .col-lg-12 {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .si-cwl-container .row {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .scoreCard-innings-wrapper {
+        padding: 0 10px;
+    }
+}
+
+.mainBox {
+    display: table;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.mainBox .main-leftBox {
+    float: left;
+    width: 100%;
+    padding-right: 1px;
+}
+
+@media screen and (max-width: 992px) {
+    .mainBox .main-leftBox {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+.mainBox .main-rightBox {
+    float: right;
+    width: 300px;
+}
+
+@media screen and (max-width: 992px) {
+    .mainBox .main-rightBox {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+.si-graphs-container {
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 992px) {
+    .si-widget [data-wdtype*="topperformers"] {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .social-connect-wrap {
+        display: none;
+    }
+}
+
+
+@font-face {
+    font-family: 'icomoon';
+    src: url("../fonts/icomoon.eot?ae1r78");
+    src: url("../fonts/icomoon.eot?ae1r78#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?ae1r78") format("truetype"), url("../fonts/icomoon.woff?ae1r78") format("woff"), url("../fonts/icomoon.svg?ae1r78#icomoon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.mainBox {
+    display: block;
+}
+
+.matchCenter-backWrap {
+    margin: 15px 0;
+    display: table;
+}
+
+@media screen and (max-width: 767px) {
+    .matchCenter-backWrap {
+        width: 100%;
+        padding: 0 10px;
+    }
+}
+
+.matchCenter-backWrap a {
+    display: table-cell;
+    vertical-align: middle;
+    color: #fff;
+    background: #5c0003;
+    padding: 4px 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    width: 100%;
+    min-width: 350px;
+}
+
+@media screen and (max-width: 767px) {
+    .matchCenter-backWrap a {
+        min-width: 100%;
+    }
+}
+
+.matchCenter-backWrap a i {
+    font-size: 16px;
+}
+
+.matchCenter-backWrap a img {
+    width: 60px;
+    height: auto;
+    margin: 0 10px;
+}
+
+.matchCenter-backWrap a:hover,
+.matchCenter-backWrap a:focus {
+    text-decoration: none;
+}
+
+.si-cwl-mast-head-wrap {
+    position: relative;
+    width: 100%;
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-title {
+    background: url(../images/svgs/masthead.svg) no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: 120%;
+    -moz-background-size: 120%;
+    -ms-background-size: 120%;
+    -o-background-size: 120%;
+    height: 60px;
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 45px;
+    font-family: "GothamBold";
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+@media screen and (max-width: 992px) {
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-title {
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-title {
+        font-size: 15px;
+        padding: 10px;
+    }
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-title span {
+    display: block;
+}
+
+.si-cwl-mast-head-wrap .arrow-wrapper {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 26px;
+    height: 26px;
+    border: 2px solid #fff;
+    color: #fff;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+@media screen and (max-width: 767px) {
+    .si-cwl-mast-head-wrap .arrow-wrapper {
+        width: 16px;
+        height: 16px;
+        border: 1px solid #fff;
+        display: none;
+    }
+}
+
+.si-cwl-mast-head-wrap .arrow-wrapper:hover .tooltip {
+    display: block;
+}
+
+.si-cwl-mast-head-wrap .arrow-wrapper .tooltip {
+    display: none;
+    width: 120px;
+    background-color: #5c0003;
+    color: #fff;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: "GothamBook";
+    position: absolute;
+    top: -35px;
+    left: -50px;
+}
+
+.si-cwl-mast-head-wrap .arrow-wrapper .plus-arrow:before,
+.si-cwl-mast-head-wrap .arrow-wrapper .minus-arrow:before {
+    font-family: 'icomoon' !important;
+    font-size: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+@media screen and (max-width: 767px) {
+
+    .si-cwl-mast-head-wrap .arrow-wrapper .plus-arrow:before,
+    .si-cwl-mast-head-wrap .arrow-wrapper .minus-arrow:before {
+        font-size: 6px;
+    }
+}
+
+.si-cwl-mast-head-wrap .arrow-wrapper .plus-arrow:before {
+    content: "\e906";
+    font-size: 12px;
+}
+
+@media screen and (max-width: 767px) {
+    .si-cwl-mast-head-wrap .arrow-wrapper .plus-arrow:before {
+        font-size: 8px;
+    }
+}
+
+.si-cwl-mast-head-wrap .arrow-wrapper .minus-arrow:before {
+    content: "\e907";
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body {
+    padding: 50px 10px 10px;
+    text-align: center;
+    color: #151515;
+    background: url(../images/mtch-CenterBg.jpg) repeat;
+    margin-top: -60px;
+    position: relative;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-family: "GothamBook";
+    overflow: hidden;
+}
+
+@media screen and (max-width: 767px) {
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body {
+        margin-top: -35px;
+    }
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-match-status {
+    font-size: 12px;
+    color: #b4090f;
+    font-family: "GothamMedium";
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-match-status {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-match-status {
+        font-size: 9px;
+    }
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-match-status span {
+    display: block;
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap {
+    padding: 10px 10px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 992px) {
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap {
+        width: 100%;
+        padding: 5px 0;
+    }
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl {
+    display: table;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td {
+    width: 20%;
+    vertical-align: top;
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td:first-child {
+    text-align: right;
+    vertical-align: top;
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td:last-child {
+    text-align: left;
+    /*direction: rtl;*/
+    vertical-align: top;
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td:first-child,
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td:last-child {
+    width: 40%;
+}
+
+@media screen and (max-width: 767px) {
+
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td:first-child,
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td:last-child {
+        text-align: center;
+    }
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap.loss-match .scorecard-innings-wrap,
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap.loss-match .scorecard-innings-wrap {
+    color: #dad8d8;
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap.won-match .scorecard-innings-wrap,
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap.won-match .scorecard-innings-wrap {
+    color: #151515;
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap,
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap {
+    font-family: "GothamBold";
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 992px) {
+
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap,
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap,
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap {
+        font-size: 18px;
+    }
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap .scorecard-team-name,
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .scorecard-team-name {
+    position: relative;
+    height: 50px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap .scorecard-team-name,
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .scorecard-team-name {
+        padding: 5px 0;
+        height: auto;
+    }
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap .scorecard-team-name .team-name-box,
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .scorecard-team-name .team-name-box {
+    position: absolute;
+    line-height: 1.1;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+@media screen and (max-width: 767px) {
+
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap .scorecard-team-name .team-name-box,
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .scorecard-team-name .team-name-box {
+        position: static;
+        top: 0;
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap .scorecard-team-name span:first-child,
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .scorecard-team-name span:first-child {
+    float: right;
+    margin: -3px 0 0;
+}
+
+@media screen and (max-width: 767px) {
+
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap .scorecard-team-name span:first-child,
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .scorecard-team-name span:first-child {
+        float: none;
+        display: block;
+        margin: 0 0 5px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap .scorecard-team-name span:last-child,
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .scorecard-team-name span:last-child {
+        height: auto;
+        display: block;
+        line-height: 16px;
+        font-size: 14px;
+    }
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap .scorecard-team-name span img,
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .scorecard-team-name span img {
+    width: 80px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 767px) {
+
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap .scorecard-team-name span img,
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .scorecard-team-name span img {
+        width: 40px;
+    }
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap .scorecard-team-name.si-cwl-bowling-team:before,
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .scorecard-team-name.si-cwl-bowling-team:before {
+    display: none;
+    background: url("../images/ball_icon.png") no-repeat center center;
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap .scorecard-team-name.si-cwl-batting-team:before,
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .scorecard-team-name.si-cwl-batting-team:before {
+    display: none;
+    background: url("../images/bat_icon.png") no-repeat center center;
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap .scorecard-team-name.si-cwl-batting-team,
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap .scorecard-team-name.si-cwl-bowling-team,
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .scorecard-team-name.si-cwl-batting-team,
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .scorecard-team-name.si-cwl-bowling-team {
+    position: relative;
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap .scorecard-team-name.si-cwl-batting-team:before,
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap .scorecard-team-name.si-cwl-bowling-team:before,
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .scorecard-team-name.si-cwl-batting-team:before,
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .scorecard-team-name.si-cwl-bowling-team:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-size: 100%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+@media screen and (max-width: 767px) {
+
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap .scorecard-team-name.si-cwl-batting-team:before,
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap .scorecard-team-name.si-cwl-bowling-team:before,
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .scorecard-team-name.si-cwl-batting-team:before,
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .scorecard-team-name.si-cwl-bowling-team:before {
+        top: 20px;
+    }
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap .score-container,
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .score-container {
+    display: table;
+    width: 100%;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 767px) {
+
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap .score-container,
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .score-container {
+        margin-top: 0;
+    }
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap .scorecard-innings-wrap,
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .scorecard-innings-wrap {
+    text-transform: none;
+    color: rgba(21, 21, 21, 0.4);
+    direction: ltr;
+}
+
+@media screen and (max-width: 767px) {
+
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap .scorecard-innings-wrap,
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .scorecard-innings-wrap {
+        display: inline-block;
+        padding: 0px 1px;
+    }
+
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap .scorecard-innings-wrap:nth-child(2),
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .scorecard-innings-wrap:nth-child(2) {
+        border-left: 1px solid #dad8d8;
+    }
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap .scorecard-innings-wrap span:first-child,
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .scorecard-innings-wrap span:first-child {
+    font-family: "GothamBold";
+    font-size: 30px;
+}
+
+@media screen and (max-width: 767px) {
+
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap .scorecard-innings-wrap span:first-child,
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .scorecard-innings-wrap span:first-child {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap .scorecard-innings-wrap span:first-child,
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .scorecard-innings-wrap span:first-child {
+        font-size: 20px;
+    }
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap .scorecard-innings-wrap span:last-child,
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .scorecard-innings-wrap span:last-child {
+    font-family: "GothamBook";
+    font-size: 12px;
+    color: rgba(34, 35, 35, 0.4);
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap .scorecard-innings-wrap span:last-child,
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .scorecard-innings-wrap span:last-child {
+        font-size: 9px;
+    }
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap .scorecard-innings-wrap span.ytb,
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .scorecard-innings-wrap span.ytb {
+    font-family: "GothamBold";
+    font-size: 35px;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 767px) {
+
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap .scorecard-innings-wrap span.ytb,
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .scorecard-innings-wrap span.ytb {
+        font-size: 20px;
+    }
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap .scorecard-innings-wrap.scorecard-innings-current,
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap .scorecard-innings-wrap.scorecard-innings-winner,
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .scorecard-innings-wrap.scorecard-innings-current,
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .scorecard-innings-wrap.scorecard-innings-winner {
+    color: #151515;
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap .team-name-box {
+    left: auto;
+    right: 90px;
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap img {
+    margin: 0 0 0 14px;
+}
+
+@media screen and (max-width: 767px) {
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap img {
+        margin-right: 10px;
+    }
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .team-name-box {
+    right: 0;
+    left: 90px;
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .scorecard-team-name.si-cwl-batting-team:before,
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .scorecard-team-name.si-cwl-bowling-team:before {
+    left: -30px;
+}
+
+@media screen and (max-width: 767px) {
+
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .scorecard-team-name.si-cwl-batting-team:before,
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .scorecard-team-name.si-cwl-bowling-team:before {
+        left: 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap span img {
+        margin-left: 10px;
+    }
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .scorecard-team-name {
+    flex-direction: row-reverse;
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .scorecard-team-name span:first-child {
+    float: left;
+}
+
+@media screen and (max-width: 767px) {
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap .scorecard-team-name span:first-child {
+        float: none;
+    }
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap img {
+    margin: 0 14px 0 0;
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap .scorecard-team-name.si-cwl-batting-team:before,
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap .scorecard-team-name.si-cwl-bowling-team:before {
+    right: -30px;
+}
+
+@media screen and (max-width: 767px) {
+
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap .scorecard-team-name.si-cwl-batting-team:before,
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap .scorecard-team-name.si-cwl-bowling-team:before {
+        right: 10px;
+    }
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamA-wrap.won-match,
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .socrecard-teamB-wrap.won-match {
+    color: #151515;
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .team-vs-wrap {
+    position: relative;
+    width: calc(100% - 38px);
+    height: 46px;
+    background: url(../images/Shield.png) no-repeat center center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    z-index: 1;
+}
+
+@media screen and (max-width: 767px) {
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .team-vs-wrap {
+        width: calc(100% - 29px);
+        height: 35px;
+    }
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .team-vs-wrap:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: auto;
+    width: 29%;
+    height: 1px;
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, #868687 50%);
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, #868687 50%);
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, #868687 50%);
+    background: -ms-linear-gradient(left, rgba(255, 255, 255, 0) 0%, #868687 50%);
+    background: linear-gradient(left, rgba(255, 255, 255, 0) 0%, #868687 50%);
+    z-index: -1;
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .team-vs-wrap:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    left: auto;
+    width: 29%;
+    height: 1px;
+    background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0) 0%, #868687 50%);
+    background: -moz-linear-gradient(right, rgba(255, 255, 255, 0) 0%, #868687 50%);
+    background: -o-linear-gradient(right, rgba(255, 255, 255, 0) 0%, #868687 50%);
+    background: -ms-linear-gradient(right, rgba(255, 255, 255, 0) 0%, #868687 50%);
+    background: linear-gradient(right, rgba(255, 255, 255, 0) 0%, #868687 50%);
+    z-index: -1;
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .team-vs-wrap span {
+    font-family: "GothamBold";
+    color: #565656;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-scorecard-wrap .si-cwl-mast-head-scorecard-tbl .si-cwl-mast-head-scorecard-td .team-vs-wrap span {
+        font-size: 20px;
+        padding-top: 10px;
+        display: block;
+    }
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-match-result-wrap span {
+    padding: 3px 10px;
+    background: #cacbcd;
+    width: 60%;
+    margin: 0px auto;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-family: "GothamBook";
+    color: #000;
+    display: block;
+    position: relative;
+    z-index: 1;
+    text-transform: none;
+}
+
+@media screen and (max-width: 767px) {
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-match-result-wrap span {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-match-result-wrap span {
+        font-size: 12px;
+    }
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-match-venue-time {
+    text-align: center;
+    padding: 10px 5px;
+    font-size: 14px;
+    font-family: "GothamMedium";
+    text-transform: uppercase;
+    color: #b4090f;
+}
+
+@media screen and (max-width: 767px) {
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-match-venue-time {
+        font-size: 14px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-match-venue-time {
+        font-size: 12px;
+    }
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-match-venue-time span {
+    display: block;
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-match-venue-time span em {
+    font-style: normal;
+    padding: 0 8px;
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-match-venue-time {
+    padding: 8px 5px 0;
+}
+
+@media screen and (max-width: 767px) {
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-match-venue-time {
+        font-size: 10px;
+    }
+
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .si-cwl-mast-head-match-venue-time span em {
+        padding: 0 10px;
+    }
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .superOver-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+    width: 40%;
+    margin: 10px auto;
+    border-top: 1px solid #ed2228;
+    border-bottom: 1px solid #ed2228;
+}
+
+@media screen and (max-width: 992px) {
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .superOver-wrap {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .superOver-wrap {
+        width: 100%;
+    }
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .superOver-wrap .superOverLeft {
+    text-align: right;
+}
+
+@media screen and (max-width: 767px) {
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .superOver-wrap .superOverLeft {
+        padding: 0 5px 0 0;
+    }
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .superOver-wrap .superOverRight {
+    text-align: left;
+}
+
+@media screen and (max-width: 767px) {
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .superOver-wrap .superOverRight {
+        padding: 0 0 0 5px;
+    }
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .superOver-wrap .superOverLeft,
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .superOver-wrap .superOverRight {
+    flex-basis: 30%;
+    flex-grow: 2;
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .superOver-wrap .superOverLeft .superOverTeamScore,
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .superOver-wrap .superOverRight .superOverTeamScore {
+    font-size: 26px;
+    color: #ed2228;
+    font-family: "GothamBold";
+}
+
+@media screen and (max-width: 767px) {
+
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .superOver-wrap .superOverLeft .superOverTeamScore,
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .superOver-wrap .superOverRight .superOverTeamScore {
+        font-size: 16px;
+    }
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .superOver-wrap .superOverLeft .superOverTeamScore.currentPlaying,
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .superOver-wrap .superOverRight .superOverTeamScore.currentPlaying {
+    opacity: 1;
+    color: #ed2228;
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .superOver-wrap .superOverLeft .superOverTeamScore.matchWon,
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .superOver-wrap .superOverRight .superOverTeamScore.matchWon {
+    opacity: 1;
+    color: #ed2228;
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .superOver-wrap .superOverLeft .superOverTeamScore .scorecard-innings-wrap span:last-child,
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .superOver-wrap .superOverRight .superOverTeamScore .scorecard-innings-wrap span:last-child {
+    font-size: 12px;
+    font-family: "GothamBook";
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .superOver-wrap .superOverMid {
+    flex-grow: 1;
+    font-size: 12px;
+    flex-baisi: 60%;
+}
+
+@media screen and (max-width: 992px) {
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .superOver-wrap .superOverMid {
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .superOver-wrap .superOverMid {
+        width: 100px;
+    }
+}
+
+.si-cwl-mast-head-wrap .si-cwl-mast-head-body .superOver-wrap .superOverMid .superOverMidTitle {
+    padding: 2px 5px;
+    color: #ed2228;
+    text-transform: capitalize;
+    font-family: "GothamBook";
+}
+
+@media screen and (max-width: 767px) {
+    .si-cwl-mast-head-wrap .si-cwl-mast-head-body .superOver-wrap .superOverMid .superOverMidTitle {
+        font-size: 11px;
+    }
+}
+
+.si-vs-team {
+    flex-basis: 34%;
+    text-align: center;
+    position: relative;
+}
+
+.si-vs-svg {
+    width: 30px;
+    height: 40px;
+    margin: 10px auto 0;
+    position: relative;
+}
+
+.si-svg-bg {
+    fill: #c7c7c8;
+    stroke-width: 5px;
+    stroke: #676774;
+}
+
+.si-vs-txt {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: "GothamBold";
+    color: #565656;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+    .si-vs-txt {
+        font-size: 12px;
+    }
+}
+
+.si-VsWrap {
+    position: relative;
+}
+
+.si-VsWrap:before {
+    content: "";
+    width: 60%;
+    height: 1px;
+    position: absolute;
+    top: 30px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: -webkit-linear-gradient(left, rgba(237, 34, 40, 0) 0%, #cccccc 15%, #cccccc 50%, #cccccc 85%, rgba(237, 34, 40, 0) 100%);
+    background: -moz-linear-gradient(left, rgba(237, 34, 40, 0) 0%, #cccccc 15%, #cccccc 50%, #cccccc 85%, rgba(237, 34, 40, 0) 100%);
+    background: -o-linear-gradient(left, rgba(237, 34, 40, 0) 0%, #cccccc 15%, #cccccc 50%, #cccccc 85%, rgba(237, 34, 40, 0) 100%);
+    background: -ms-linear-gradient(left, rgba(237, 34, 40, 0) 0%, #cccccc 15%, #cccccc 50%, #cccccc 85%, rgba(237, 34, 40, 0) 100%);
+    background: linear-gradient(left, rgba(237, 34, 40, 0) 0%, #cccccc 15%, #cccccc 50%, #cccccc 85%, rgba(237, 34, 40, 0) 100%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 480px) {
+    .si-VsWrap:before {
+        width: 100%;
+    }
+}

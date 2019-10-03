@@ -1,0 +1,95 @@
+{
+    "details":
+    {
+        "Team_Home": "1",
+        "Team_Away": "4",
+        "Match":
+        {
+            "Livecoverage": "yes",
+            "Id": "186743",
+            "Code": "auin12262018186743",
+            "League": "icc",
+            "Number": "3rd Test",
+            "Type": "Test",
+            "Date": "12/26/2018",
+            "Time": "10:30",
+            "Offset": "+11:00",
+            "Daynight": "no"
+        },
+        "Series":
+        {
+            "Id": "3000",
+            "Name": "Border-Gavaskar Trophy, 2018/19",
+            "Status": "India lead the 4 Test series 2-1",
+            "Tour": "901",
+            "Tour_Name": "India tour of Australia, 2018/19"
+        },
+        "Venue":
+        {
+            "Id": "96",
+            "Name": "Melbourne Cricket Ground (MCG), Melbourne"
+        },
+        "Officials":
+        {
+            "Umpires": "Ian Gould (ENG),Marais Erasmus (SA) and Richard Kettleborough (ENG)",
+            "Referee": "Andy Pycroft (ZIM)"
+        },
+        "event_name": "3rd Test",
+        "Weather": "Overcast",
+        "Tosswonby": "4",
+        "Status": "Match Ended",
+        "Status_Id": "114",
+        "Day": "5",
+        "Overs_Remaining": "66.3",
+        "Session": "2",
+        "Player_Match": "Jasprit Bumrah",
+        "Result": "India beat Australia by 137 runs",
+        "result_sub_code": "India beat Australia by 137 runs",
+        "event_sub_status": "India beat Australia by 137 runs",
+        "Winningteam": "4",
+        "Winmargin": "137 runs",
+        "Equation": "India beat Australia by 137 runs"
+    },
+	"matchDate": "26 December , 2018",
+	"matchDayName": "Wednesday",
+	"matchShortDate": "26 Dec , 2018",
+	"matchTime": "5:00",
+	"homeTeam":{
+		"short_name": "AUS",
+		"value": "151 (66.5) & 261 (89.3)",
+		"name": "Australia",
+		"now": "true",
+        "id": "1",
+		"order": "1",
+		"innings": [
+			{
+				"number": "Second",
+				"overs": "66.5",
+				"runrate": "2.25",
+				"runs": "151",
+				"teamInning": 1,
+				"teamInningSuffix": "st",
+				"wickets": ""
+			}
+		]
+	},
+	"awayTeam":{		
+		"short_name": "IND",
+		"value": "443/7 (169.4) d & 106/8 (37.3) d",
+		"name": "India",
+		"now": "true",
+		"order": "1",
+        "id": "4",
+		"innings": [
+			{
+				"number": "Second",
+				"overs": "66.5",
+				"runrate": "2.25",
+				"runs": "151",
+				"teamInning": 1,
+				"teamInningSuffix": "st",
+				"wickets": ""
+			}
+		]
+	}
+}
